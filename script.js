@@ -33,7 +33,6 @@ for (let i = 0; i < operator.length; i++) {
     } else if (this.id == "delete") {
       let output = reverseNumber(getOutput()).toString();
       if (output) {
-        //if output has a value
         output = output.substr(0, output.length - 1);
         if (output.length === 0) {
           printOutput(0);
@@ -71,7 +70,6 @@ for (let i = 0; i < number.length; i++) {
   number[i].addEventListener("click", function () {
     let output = reverseNumber(getOutput());
     if (output != NaN) {
-      //jika output adalah integer
       output += this.id;
       printOutput(output);
     }
