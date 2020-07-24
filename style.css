@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.wallpaperscraft.com%2Fimage%2Fstarry_sky_space_stars_132298_1920x1080.jpg&f=1&nofb=1);
+  background-size: cover;
+}
+
+.container {
+  width: 320px;
+  height: 540px;
+  background-color: white;
+  margin: 30px auto;
+  padding-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(125, 255, 19, 0.7);
+  opacity: 0.85;
+}
+
+.display {
+  height: 120px;
+  text-align: right;
+}
+
+.history {
+  height: 20px;
+  padding-top: 20px;
+  margin: 0 20px 20px;
+  font-size: 10px;
+  color: grey;
+}
+
+.output {
+  height: 60px;
+  margin: 10px 20px;
+  font-size: 25px;
+}
+
+button {
+  float: left;
+  height: 50px;
+  width: 15%;
+  margin: 15px;
+  font-weight: bold;
+  border-radius: 100%;
+  background-color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.operator {
+  font-size: 20px;
+}
+
+button:nth-child(1) {
+  background-color: red;
+  color: white;
+}
+
+button:nth-child(20) {
+  background-color: #ffa500;
+  color: white;
+}
+
+button:active {
+  font-size: 12px;
+  background-color: rgba(99, 98, 98, 0.1);
+}
+
+button:focus {
+  outline: 0;
+}
